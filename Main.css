@@ -585,3 +585,36 @@ transition: all 0.3s;
    padding: 0 1rem;
    font-size: 1.2rem;
 }
+footer{
+   position:relative;
+   padding: 5rem;
+   background-color:#343d68;
+   margin-top: -1px;
+}
+.footer-wrapper{
+   display: flex;
+   gap: 1rem;
+   padding: 1.1rem;
+   justify-content: space-between;
+   align-items: center;
+}.fotter-faded-text{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   color: #535c87;
+   user-select: none;
+   font-size: 5em ;
+}.link-wrapper{
+   display: flex;
+   gap: 1.2rem;
+}.link-wrapper  a{
+   color: white;
+   text-decoration: none;  
+}.link-wrapper a:hover{
+   color: var(--bgOrange);
+}.icon-wrapper{
+   display: flex;
+   gap: 1rem;
+   margin-right: 10%;
+   
+}
